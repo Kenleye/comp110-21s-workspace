@@ -1,4 +1,3 @@
 print("Hello, world. It is a lovely day!")
 
-__author__ = 730316492
-
+__author__ = "730316492"
