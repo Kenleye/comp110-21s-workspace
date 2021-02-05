@@ -13,7 +13,7 @@ from random import randint
 
 
 # Begin your solution here...
-magic_number: int = randint(1,10)
+magic_number: int = randint(1,11)
 if magic_number < 2: 
     print("you will get an A in COMP110")
 else: 
@@ -28,3 +28,5 @@ else:
             else:
                 print("you should stick to being a psych major")
 
+if magic_number == 10:
+    print("jackpot! you have 110 years of good luck.")
