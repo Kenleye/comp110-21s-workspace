@@ -30,3 +30,4 @@ else:
 
 if magic_number == 10:
     print("jackpot! you have 110 years of good luck.")
+    
