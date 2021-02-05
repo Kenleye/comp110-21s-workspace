@@ -1,6 +1,6 @@
 """Program that outputs one of at least four random, good fortunes."""
 
-__author__ = "ENTER YOUR 9-DIGIT PID HERE"
+__author__ = "730316492"
 
 # The randint function is imported from the random library so that
 # you are able to generate integers at random.
@@ -13,3 +13,18 @@ from random import randint
 
 
 # Begin your solution here...
+magic_number: int = randint(1,10)
+if magic_number < 2: 
+    print("you will get an A in COMP110")
+else: 
+    if magic_number < 4:
+        print("you will fail COMP110")
+    else:
+        if magic_number < 6:
+            print("you are amazing and your COMP110 grade doesn't define you")
+        else: 
+            if magic_number < 8:
+                print("you are so good at COMP110 you will be the next Kris Jordan")
+            else:
+                print("you should stick to being a psych major")
+
