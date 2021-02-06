@@ -13,21 +13,17 @@ from random import randint
 
 
 # Begin your solution here...
-magic_number: int = randint(1,11)
-if magic_number < 2: 
+magic_number: int = randint(1, 11)
+if magic_number == 2: 
     print("you will get an A in COMP110")
 else: 
-    if magic_number < 4:
+    if magic_number == 4:
         print("you will fail COMP110")
     else:
-        if magic_number < 6:
+        if magic_number == 6:
             print("you are amazing and your COMP110 grade doesn't define you")
         else: 
-            if magic_number < 8:
+            if magic_number == 8:
                 print("you are so good at COMP110 you will be the next Kris Jordan")
             else:
                 print("you should stick to being a psych major")
-
-if magic_number == 10:
-    print("jackpot! you have 110 years of good luck.")
-    
