@@ -13,6 +13,7 @@ from random import randint
 
 
 # Begin your solution here...
+print("Your fortune cookie says...")
 magic_number: int = randint(1, 11)
 if magic_number == 2: 
     print("you will get an A in COMP110")
@@ -27,3 +28,4 @@ else:
                 print("you are so good at COMP110 you will be the next Kris Jordan")
             else:
                 print("you should stick to being a psych major")
+print("Now, go spread positive vibes!")

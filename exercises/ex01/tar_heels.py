@@ -13,7 +13,6 @@ else:
         print("TAR")
     else:
         if number % 7 == 0:
-            print ("HEELS")
+            print("HEELS")
         else:
-            print ("CAROLINA") 
-
+            print("CAROLINA") 
