@@ -12,6 +12,7 @@ def main() -> None:
 
 # TODO 1: Define the tar_heels function, and its logic, here.
 def tar_heels(number: int) -> str: 
+    """Program to cheer on the best team."""
     if number % 2 == 0 and number % 7 == 00:
         return("TAR HEELS")
     else:

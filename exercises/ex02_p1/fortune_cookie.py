@@ -15,6 +15,7 @@ def main() -> None:
 
 # TODO 1: Define your fortune_cookie function here.
 def fortune_cookie() -> str: 
+    """Program to tell you a fortune."""
     magic_number: int = randint(1, 11)
     if magic_number == 2: 
         return("you will get an A in COMP110")
