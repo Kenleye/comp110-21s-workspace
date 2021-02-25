@@ -20,3 +20,8 @@ def sum_algo(xs: list[int]) -> int:
 odds: list[int] = [1, 3, 5, 7] 
 odds_sum: int = sum_algo(odds)
 print(odds_sum)
+
+single: list[int] = [110]
+many: list[int] = [1, 3, 5]
+print(sum_algo(single))
+print(sum_algo(many))
