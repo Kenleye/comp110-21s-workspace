@@ -16,9 +16,9 @@ COIN_TOSS: str = "\U0001FA99"
 
 def main() -> None: 
     """Main function."""
-    (greet())
+    greet()
     global points
-    what_pet: str = (input(f"Which pet would you like {player}? dragon/hedgehog/earthworm - "))
+    what_pet: str =  input(f"Which pet would you like {player}? dragon/hedgehog/earthworm - ")
     if what_pet == "dragon":
         print(f"{DRAGON}! Uh oh. Your pet ate your computer's insides. You are unable to take care of it.")
     else: 
@@ -41,7 +41,8 @@ def main() -> None:
 def greet() -> None:
     """Saying hello.""" 
     print(f"Welcome! Thank you for choosing to adopt one of our computagotchis! They make fabulous pets.")
-    player: str = (input("What is your name? "))
+    global player
+    player = input("What is your name? ")
     return None
     
 
