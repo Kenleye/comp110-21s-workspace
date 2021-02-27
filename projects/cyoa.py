@@ -1,6 +1,7 @@
 """Adopt a computagotchi!"""
 from random import randint
 
+__author__: str = "730316492" 
 player: str = ""
 points: int = 0
 a: str = ""
@@ -14,11 +15,12 @@ CARROT: str = "\U0001F955"
 THROW_UP: str = "\U0001F92E"
 COIN_TOSS: str = "\U0001FA99"
 
+
 def main() -> None: 
     """Main function."""
     greet()
     global points
-    what_pet: str =  input(f"Which pet would you like {player}? dragon/hedgehog/earthworm - ")
+    what_pet: str = input(f"Which pet would you like {player}? dragon/hedgehog/earthworm - ")
     if what_pet == "dragon":
         print(f"{DRAGON}! Uh oh. Your pet ate your computer's insides. You are unable to take care of it.")
     else: 
@@ -38,9 +40,10 @@ def main() -> None:
     while input("Would you like to adopt again? yes/no - ") == "yes":
         return main()
 
+
 def greet() -> None:
     """Saying hello.""" 
-    print(f"Welcome! Thank you for choosing to adopt one of our computagotchis! They make fabulous pets.")
+    print("Welcome! Thank you for choosing to adopt one of our computagotchis! They make fabulous pets.")
     global player
     player = input("What is your name? ")
     return None
